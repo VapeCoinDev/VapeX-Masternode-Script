@@ -3,6 +3,7 @@ Shell script to install a [VAPEX Masternode](https://www.vapecoinshop.com/) on a
 ***
 
 ## VPS installation
+If you require a VPS check out [Vultr](https://www.vultr.com/?ref=7170618/) and start up a Linux Ubuntu 16.04 server
 ```
 wget -N https://raw.githubusercontent.com/VapeCoinDev/VapeX-Masternode-Script/master/vapexmn_install.sh
 bash vapexmn_install.sh
