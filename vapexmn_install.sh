@@ -125,14 +125,14 @@ EOF
 }
 
 
-function enable_firewall() {
-  echo -e "Installing and setting up firewall to allow ingress on port ${GREEN}$COIN_PORT${NC}"
-  ufw allow $COIN_PORT/tcp comment "$COIN_NAME MN port" >/dev/null
-  ufw allow ssh comment "SSH" >/dev/null 2>&1
-  ufw limit ssh/tcp >/dev/null 2>&1
-  ufw default allow outgoing >/dev/null 2>&1
-  echo "y" | ufw enable >/dev/null 2>&1
-}
+#function enable_firewall() {
+ # echo -e "Installing and setting up firewall to allow ingress on port ${GREEN}$COIN_PORT${NC}"
+ # ufw allow $COIN_PORT/tcp comment "$COIN_NAME MN port" >/dev/null
+ # ufw allow ssh comment "SSH" >/dev/null 2>&1
+ # ufw limit ssh/tcp >/dev/null 2>&1
+ # ufw default allow outgoing >/dev/null 2>&1
+ # echo "y" | ufw enable >/dev/null 2>&1
+#}
 
 
 function get_ip() {
@@ -237,7 +237,7 @@ function setup_node() {
   create_config
   create_key
   update_config
-  enable_firewall
+  #enable_firewall
   important_information
   configure_systemd
 }
