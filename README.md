@@ -78,6 +78,8 @@ systemctl is-enabled vapex #To check if VapeX service is enabled on boot
 ***
 
 ## Donations	
-Any donation is highly appreciated	
+Any donation is highly appreciated
+```
 **BTC**: 3Mi9fUVroHYSds6Dsu66eGtsP2EVba8Mm3
 **ETH**: 0x94E27a1DF0fbc3E694c8B995EBF7F75277cAe7fd
+```
