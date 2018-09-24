@@ -56,16 +56,16 @@ startmasternode alias 0 MN1
 ```
 18. Login to your VPS and check your masternode status by running the following command to confirm your MN is running:
 ```
-vapex-cli masternode status
+vapexcoin-cli masternode status
 ```
 
 ***
 
 ## Usage:
 ```
-vapex-cli masternode status #To check your MN status
-vapex-cli getinfo #To get general info such as VapeX version and current block numnber
-vapex-cli mnsync status #To check if your MN is synced.
+vapexcoin-cli masternode status #To check your MN status
+vapexcoin-cli getinfo #To get general info such as VapeX version and current block numnber
+vapexcoin-cli mnsync status #To check if your MN is synced.
 ```
 Also, if you want to check/start/stop **vapex**, run one of the following commands as **root**:
 
